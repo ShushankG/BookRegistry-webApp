@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+   <style>
+        /* Add custom CSS to center vertically */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body class="container-fluid " >
+
+  <div class="card mx-auto" style="width: 40rem">
+<h1 class="bg-danger text-white text-center">Book Registration</h1>
+
+<form action="register" method="post">
+<table class="table table-hover" >
+
+<tr>
+<td>Book Name : </td>
+<td><input type="text" name="bookname"> </td>
+</tr>
+
+<tr>
+<td>Book Edition : </td>
+<td><input type="text" name="bookedition"> </td>
+</tr>
+
+<tr>
+<td>Book Price : </td>
+<td><input type="text" name="bookprice"> </td>
+</tr>
+
+<tr>
+<td><input type="submit" value="Register"></td>
+<td><input type="submit" Value="Cancel"> </td>
+</tr>
+
+
+
+</table>
+
+<br>
+<a href="list">BookList</a>
+
+
+</form>
+</div>
+
+</body>
+</html>
